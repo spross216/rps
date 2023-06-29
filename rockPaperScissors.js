@@ -1,3 +1,6 @@
+//first draft of the script
+
+
 const choices = ["Rock", "Paper", "Scissors"];
 let playerWins = 0
 let computerWins = 0
@@ -61,3 +64,4 @@ function main() {
         console.log("You lose! " + computerWins + " to " + playerWins + "!");
     }
 }
+
