@@ -64,8 +64,8 @@ function getComputerChoice() {
 
 
 function getResults(playerChoice, computerChoice, index) {
-    const win = "You win! " + playerChoice + " beats " + computerChoice + "!";
-    const lose = "You lose! " + computerChoice + " beats " + playerChoice + "!";
+    const win = `You win! ${playerChoice} beats ${computerChoice}`;
+    const lose = `You lose! ${computerChoice} beats ${playerChoice}`;
     const tie = "It's a tie! Try again!";
     const resultsList = [win, lose, tie];
     const resultsText = document.createTextNode(resultsList[index]);
@@ -81,7 +81,7 @@ function endGame(winOrLose) {
     results.appendChild(playAgain);
     playAgain.addEventListener("click", () => {
         clearGame();
-    })
+    });
 }
 
 
