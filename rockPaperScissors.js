@@ -97,8 +97,8 @@ function isGameOver() {
 
 
 function clearGame() {
-    getPlayerScore.replaceChildren("");
-    getComputerScore.replaceChildren("");
+    getPlayerScore.replaceChildren("0");
+    getComputerScore.replaceChildren("0");
     playerScore = 0;
     computerScore = 0;
     results.replaceChildren("First to 5 wins!");

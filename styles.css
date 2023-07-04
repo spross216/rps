@@ -2,8 +2,6 @@
 .heading {
     display: flex;
     justify-content: center;
-    border: solid black 4px;
-    border-radius: 15px;
     color: black;
 }
 
@@ -34,8 +32,6 @@
 .player-score {
     width: 200px;
     height: 200px;
-    border: solid black 4px;
-    border-radius: 15px;
     margin: 0px 30px 30px 30px;
     text-align: center;
     font-size: 100px;
@@ -45,8 +41,6 @@
 .computer-score {
     width: 200px;
     height: 200px;
-    border: solid black 4px;
-    border-radius: 15px;
     margin: 0px 30px 30px 30px;
     text-align: center;
     font-size: 100px;
