@@ -1,0 +1,97 @@
+
+.heading {
+    display: flex;
+    justify-content: center;
+    border: solid black 4px;
+    border-radius: 15px;
+    color: black;
+}
+
+
+.scoreboard-labels {
+    display: flex;
+    justify-content: center;
+}
+
+
+.player-score-label {
+    margin: 10px 10px 0px 10px;
+}
+
+
+.computer-score-label {
+    margin: 10px 10px 0px 75px;
+}
+
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.player-score {
+    width: 200px;
+    height: 200px;
+    border: solid black 4px;
+    border-radius: 15px;
+    margin: 0px 30px 30px 30px;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.computer-score {
+    width: 200px;
+    height: 200px;
+    border: solid black 4px;
+    border-radius: 15px;
+    margin: 0px 30px 30px 30px;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.results {
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+#rock {
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    border: solid black 4px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+
+#paper {
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    border: solid black 4px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+
+#scissors {
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    border: solid black 4px;
+    border-radius: 15px;
+    margin: 30px;
+}
